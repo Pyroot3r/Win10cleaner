@@ -1,6 +1,9 @@
 import os
+import socker
 print("WINDOWS 10 CLEANUP SCRIPT")
 print("Downloaded from https://github.com/Pyroot3r/Win10cleaner")
+hostname = socket.gethostname()
+print("Running script on: " + hostname)
 os.system("dir")
 useless_file = input("enter any useless file, enter their name of the file(with Capitalization if there!): ")
 os.remove(useless_file)
