@@ -1,0 +1,11 @@
+import os
+print("WINDOWS 10 CLEANUP SCRIPT")
+os.system("dir")
+useless_file = input("enter any useless file, enter their name of the file(with Capitalization if there!): ")
+os.remove(useless_file)
+print("Deleted " + useless_file)
+os.system("cd /")
+os.system("tree")
+os.system("cd /$Recycle.Bin")
+os.getcwd()
+os.system("dir")
