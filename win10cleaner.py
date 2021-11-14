@@ -1,5 +1,5 @@
 import os
-import socker
+import socket
 print("WINDOWS 10 CLEANUP SCRIPT")
 print("Downloaded from https://github.com/Pyroot3r/Win10cleaner")
 hostname = socket.gethostname()
